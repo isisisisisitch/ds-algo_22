@@ -57,13 +57,19 @@ public class SingleLinkedList<E> extends AbstractList<E> {
 
     @Override
     public E remove(int index) {
+        Node<E> removed = first;
+        //head/only one node
+        if (index == 0) {
+            first = first.next;
+        } else {
+            //current/tail
+            Node<E> prevNode = node(index - 1);
+            removed = prevNode.next;
+            prevNode.next = removed.next;
+        }
 
-        //head
-        //current
-        //tail
-        //only one node
-
-        return null;
+        size--;
+        return removed.element;
     }
 
     @Override

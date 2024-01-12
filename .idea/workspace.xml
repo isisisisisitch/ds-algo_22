@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="" />
+    <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/DeleteNodeInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/list/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_03_list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/SingleLinkedList.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2ZmkyX5nVrWkkzbxS4eBZwUfomO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -98,10 +118,22 @@
       <workItem from="1703034899630" duration="6695000" />
       <workItem from="1704408724884" duration="9341000" />
       <workItem from="1704846607164" duration="8236000" />
+      <workItem from="1705005030058" duration="6656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
