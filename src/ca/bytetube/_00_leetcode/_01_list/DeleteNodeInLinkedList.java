@@ -1,4 +1,4 @@
-package ca.bytetube._00_leetcode.list;
+package ca.bytetube._00_leetcode._01_list;
 
 /**
  * https://leetcode.com/problems/delete-node-in-a-linked-list/description/
