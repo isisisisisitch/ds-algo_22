@@ -1,5 +1,7 @@
-package ca.bytetube._03_list;
+package ca.bytetube._03_list.singly;
 
+
+import ca.bytetube._03_list.AbstractList;
 
 public class ArrayList<E> extends AbstractList<E> {
     private E[] elements;

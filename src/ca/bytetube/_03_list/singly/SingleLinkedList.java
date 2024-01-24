@@ -1,4 +1,6 @@
-package ca.bytetube._03_list;
+package ca.bytetube._03_list.singly;
+
+import ca.bytetube._03_list.AbstractList;
 
 public class SingleLinkedList<E> extends AbstractList<E> {
     Node<E> first;
@@ -57,6 +59,7 @@ public class SingleLinkedList<E> extends AbstractList<E> {
 
     @Override
     public E remove(int index) {
+        rangeCheck(index);
         Node<E> removed = first;
         //head/only one node
         if (index == 0) {

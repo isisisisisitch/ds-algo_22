@@ -1,6 +1,11 @@
 package ca.bytetube._03_list;
 
 
+import ca.bytetube._03_list.doubly.LinkedList;
+import ca.bytetube._03_list.singly.SingleCircularLinkedList;
+import ca.bytetube._03_list.singly.SingleLinkedList;
+import org.junit.Test;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +14,7 @@ public class Main {
             linkedList.add(0, i + 100);
         }
         System.out.println(linkedList);
-        while (!linkedList.isEmpty()){
+        while (!linkedList.isEmpty()) {
             linkedList.remove(0);
         }
         System.out.println(linkedList);
@@ -40,6 +45,65 @@ public class Main {
 //        System.out.println(linkedList);
 //        linkedList.remove(linkedList.size() - 1);
 //        System.out.println(linkedList);
+
+    }
+
+
+    @Test
+    public void test4() {
+        SingleCircularLinkedList<Integer> linkedList = new SingleCircularLinkedList<>();
+        for (int i = 0; i < 4; i++) {
+            linkedList.add(i + 10);
+        }
+
+        //System.out.println(linkedList.remove(2));
+        //System.out.println(linkedList.remove(0));
+
+        while (!linkedList.isEmpty()){
+            System.out.println(linkedList.remove(0));
+        }
+
+        System.out.println();
+    }
+
+    @Test
+    public void test3() {
+        SingleCircularLinkedList<Integer> linkedList = new SingleCircularLinkedList<>();
+        for (int i = 0; i < 4; i++) {
+            linkedList.add(i + 10);
+        }
+
+//        while (!linkedList.isEmpty()){
+//            System.out.println(linkedList.remove(0));
+//        }
+
+        System.out.println();
+    }
+
+
+    @Test
+    public void test2() {
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        for (int i = 0; i < 4; i++) {
+            linkedList.add(0, i + 10);
+        }
+
+        while (!linkedList.isEmpty()){
+            System.out.println(linkedList.remove(0));
+        }
+
+        System.out.println();
+    }
+
+    @Test
+    public void test1() {
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        for (int i = 0; i < 4; i++) {
+            linkedList.add(0, i + 10);
+        }
+
+        System.out.println();
 
     }
 }
