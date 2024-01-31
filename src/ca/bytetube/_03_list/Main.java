@@ -1,6 +1,7 @@
 package ca.bytetube._03_list;
 
 
+import ca.bytetube._03_list.doubly.DoublyCircularLinkedList;
 import ca.bytetube._03_list.doubly.LinkedList;
 import ca.bytetube._03_list.singly.SingleCircularLinkedList;
 import ca.bytetube._03_list.singly.SingleLinkedList;
@@ -8,16 +9,16 @@ import org.junit.Test;
 
 public class Main {
     public static void main(String[] args) {
-
-        SingleLinkedList<Integer> linkedList = new SingleLinkedList<>();
-        for (int i = 0; i < 10; i++) {
-            linkedList.add(0, i + 100);
-        }
-        System.out.println(linkedList);
-        while (!linkedList.isEmpty()) {
-            linkedList.remove(0);
-        }
-        System.out.println(linkedList);
+        Josephus(9,2);
+//        SingleLinkedList<Integer> linkedList = new SingleLinkedList<>();
+//        for (int i = 0; i < 10; i++) {
+//            linkedList.add(0, i + 100);
+//        }
+//        System.out.println(linkedList);
+//        while (!linkedList.isEmpty()) {
+//            linkedList.remove(0);
+//        }
+//        System.out.println(linkedList);
 //        char ch = 'a';
 //        //System.out.println(ch);
 //        String s = String.valueOf((char)(ch + 1));
@@ -49,6 +50,41 @@ public class Main {
     }
 
 
+    public static void Josephus(int num, int step) {
+        DoublyCircularLinkedList<Integer> linkedList = new DoublyCircularLinkedList<>();
+        for (int i = 1; i < num; i++) {
+            linkedList.add(i);
+        }
+        linkedList.reset();
+
+        while (!linkedList.isEmpty()) {
+            for (int i = 0; i < step; i++) linkedList.next();
+
+            System.out.print(linkedList.remove() + " ");
+
+        }
+
+    }
+
+    @Test
+    public void test5() {
+        DoublyCircularLinkedList<Integer> linkedList = new DoublyCircularLinkedList<>();
+        for (int i = 0; i < 4; i++) {
+            linkedList.add(i + 10);
+        }
+
+
+//        System.out.println(linkedList.remove(2));
+//        System.out.println(linkedList.remove(0));
+
+        while (!linkedList.isEmpty()) {
+            System.out.println(linkedList.remove(0));
+        }
+
+        System.out.println();
+    }
+
+
     @Test
     public void test4() {
         SingleCircularLinkedList<Integer> linkedList = new SingleCircularLinkedList<>();
@@ -59,7 +95,7 @@ public class Main {
         //System.out.println(linkedList.remove(2));
         //System.out.println(linkedList.remove(0));
 
-        while (!linkedList.isEmpty()){
+        while (!linkedList.isEmpty()) {
             System.out.println(linkedList.remove(0));
         }
 
@@ -88,7 +124,7 @@ public class Main {
             linkedList.add(0, i + 10);
         }
 
-        while (!linkedList.isEmpty()){
+        while (!linkedList.isEmpty()) {
             System.out.println(linkedList.remove(0));
         }
 

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/doubly/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/singly/SingleCircularLinkedList.java" afterDir="false" />
+    <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="added LinkedList &amp; SingleCircularLinkedList">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_01_list/DivideList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/doubly/DoublyCircularLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ds_algo_22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ds_algo_22.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/ArrayList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_03_list/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_03_list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/singly/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_01_list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_01_list/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_03_list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_03_list/singly/SingleLinkedList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._03_list.doubly" />
       <recent name="ca.bytetube._03_list.singly" />
       <recent name="ca.bytetube._03_list" />
     </key>
@@ -62,13 +57,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.test4">
+  <component name="RunManager" selected="Application.DivideList">
+    <configuration name="DivideList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode._01_list.DivideList" />
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._00_leetcode._01_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_list.singly.*" />
+          <option name="PATTERN" value="ca.bytetube._03_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.Josephus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
@@ -86,39 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="METHOD_NAME" value="Josephus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,13 +116,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._03_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideList" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main.Josephus" />
+        <item itemvalue="JUnit.Main.test5" />
         <item itemvalue="JUnit.Main.test4" />
-        <item itemvalue="JUnit.Main.test3" />
-        <item itemvalue="JUnit.Main.test2" />
-        <item itemvalue="JUnit.Main.test1" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +157,8 @@
       <workItem from="1704846607164" duration="8236000" />
       <workItem from="1705005030058" duration="7255000" />
       <workItem from="1705451153061" duration="8188000" />
-      <workItem from="1706056008621" duration="8695000" />
+      <workItem from="1706056008621" duration="9363000" />
+      <workItem from="1706660438485" duration="9229000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -181,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705462219282</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added LinkedList &amp; SingleCircularLinkedList">
+      <created>1706066686737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706066686737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,27 +203,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added list interview questions" />
     <MESSAGE value="added list interview questions2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added list interview questions2" />
+    <MESSAGE value="added LinkedList &amp; SingleCircularLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList &amp; SingleCircularLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java</url>
-          <line>105</line>
+          <line>141</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java</url>
-          <line>94</line>
+          <line>130</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_03_list/Main.java</url>
-          <line>79</line>
+          <line>115</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ds_algo_22$Main_test5.ic" NAME="Main.test5 Coverage Results" MODIFIED="1706664635225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ca.bytetube._03_list.*</FILTER>
+    </SUITE>
   </component>
 </project>
