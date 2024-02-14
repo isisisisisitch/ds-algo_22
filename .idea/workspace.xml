@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_01_list/GetFirstInsertionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_03_queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_03_queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/SingleCircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/Dequeue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/doubly/DoublyCircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/doubly/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/file/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/BinaryTreeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/BinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/InorderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/LevelOrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,12 +76,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_07_avltree" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.24875125" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ca.bytetube._03_list.doubly" />
       <recent name="ca.bytetube._03_list.singly" />
       <recent name="ca.bytetube._03_list" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avltree" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,13 +105,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetFirstInsertionNode">
-    <configuration name="DivideList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode._01_list.DivideList" />
+  <component name="RunManager" selected="JUnit.Main.test3 (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._06_tree.Main" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode._01_list.*" />
+          <option name="PATTERN" value="ca.bytetube._06_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetFirstInsertionNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode._01_list.GetFirstInsertionNode" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._04_stack.Main" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._00_leetcode._01_list.*" />
+          <option name="PATTERN" value="ca.bytetube._04_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,33 +145,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.Josephus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_list.*" />
+          <option name="PATTERN" value="ca.bytetube._07_avltree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
-      <option name="METHOD_NAME" value="Josephus" />
+      <option name="PACKAGE_NAME" value="ca.bytetube._07_avltree" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._07_avltree.Main" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_list.*" />
+          <option name="PATTERN" value="ca.bytetube._06_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._03_list" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_list.Main" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="PACKAGE_NAME" value="ca.bytetube._06_tree" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._06_tree.Main" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetFirstInsertionNode" />
-        <item itemvalue="Application.DivideList" />
+        <item itemvalue="JUnit.Main.test3 (1)" />
+        <item itemvalue="JUnit.Main.test3" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Main.Josephus" />
-        <item itemvalue="JUnit.Main.test5" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +204,9 @@
       <workItem from="1705451153061" duration="8188000" />
       <workItem from="1706056008621" duration="9363000" />
       <workItem from="1706660438485" duration="10472000" />
-      <workItem from="1706827261519" duration="3860000" />
+      <workItem from="1706827261519" duration="3981000" />
+      <workItem from="1707846105038" duration="2187000" />
+      <workItem from="1707859455139" duration="8767000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -182,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706671995892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added GetFirstInsertionNode">
+      <created>1706839288695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706839288695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +267,8 @@
     <MESSAGE value="added list interview questions2" />
     <MESSAGE value="added LinkedList &amp; SingleCircularLinkedList" />
     <MESSAGE value="added DoublyCircularLinkedList and DivideList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added DoublyCircularLinkedList and DivideList" />
+    <MESSAGE value="added GetFirstInsertionNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added GetFirstInsertionNode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
