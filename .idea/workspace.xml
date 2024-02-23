@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_03_queue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_03_queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/SingleCircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_04_stack/single/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/Dequeue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/doubly/DoublyCircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_05_queue/doubly/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/PersonComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_06_tree/printer/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/PersonComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avltree/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +165,8 @@
       <workItem from="1706660438485" duration="10472000" />
       <workItem from="1706827261519" duration="3981000" />
       <workItem from="1707846105038" duration="2187000" />
-      <workItem from="1707859455139" duration="8767000" />
+      <workItem from="1707859455139" duration="9540000" />
+      <workItem from="1708038290568" duration="7393000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -243,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706839288695</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added stack &amp; queue &amp; bst &amp; avl">
+      <created>1707881949164</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707881949164</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +235,8 @@
     <MESSAGE value="added LinkedList &amp; SingleCircularLinkedList" />
     <MESSAGE value="added DoublyCircularLinkedList and DivideList" />
     <MESSAGE value="added GetFirstInsertionNode" />
-    <option name="LAST_COMMIT_MESSAGE" value="added GetFirstInsertionNode" />
+    <MESSAGE value="added stack &amp; queue &amp; bst &amp; avl" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stack &amp; queue &amp; bst &amp; avl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

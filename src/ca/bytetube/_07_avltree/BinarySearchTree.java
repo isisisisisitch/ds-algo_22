@@ -12,14 +12,21 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
         this.comparator = comparator;
     }
 
-    protected void afterAdd(Node<E> node){}
+    protected void afterAdd(Node<E> node) {
+    }
+
+    protected Node<E> createdNode(E element, Node<E> parent) {
+
+        return new Node<>(element, parent);
+    }
+
 
     // add elements
     public void add(E element) {
         if (element == null) throw new IllegalArgumentException("element can not be null !");
         //1.添加第一个节点
         if (root == null) {
-            root = new Node<>(element, null);
+            root = createdNode(element, null);
             size++;
             afterAdd(root);
             return;
@@ -40,7 +47,7 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
         }
 
         //3.把待加入点添加到指定的位置上
-        Node<E> newNode = new Node<>(element, parent);
+        Node<E> newNode = createdNode(element, parent);
         if (cmp > 0) parent.right = newNode;
         else parent.left = newNode;
         afterAdd(newNode);
@@ -70,6 +77,10 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
         return null;
     }
 
+    public void afterRemove(Node<E> node) {
+
+    }
+
     // remove elements
     public void remove(E element) {
         remove(node(element));
@@ -93,15 +104,20 @@ public class BinarySearchTree<E> extends BinaryTree<E> {
             else {
                 if (node == node.parent.left) node.parent.left = replacement;
                 else node.parent.right = replacement;
+
+                afterRemove(node);
             }
 
         }
         //1.Delete node-leaf node
         //root node
-        else if (node.parent == null) root = null;
-        else {
+        else if (node.parent == null) {
+            root = null;
+            afterRemove(node);
+        } else {
             if (node == node.parent.left) node.parent.left = null;
             else node.parent.right = null;
+            afterRemove(node);
         }
 
     }

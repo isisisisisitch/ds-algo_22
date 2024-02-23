@@ -13,9 +13,16 @@ public class Main {
     @Test
     public void test3() {
         AVLTree<Integer> avlTree = new AVLTree<>();
-        for (int i = 0; i < 10; i++) {
-            avlTree.add(i);
-        }
+        avlTree.add(11);
+        avlTree.add(6);
+        avlTree.add(4);
+        avlTree.add(8);
+        avlTree.add(15);
+        avlTree.add(14);
+        avlTree.add(16);
+        avlTree.add(12);
+
+
 //        avlTree.add(9);
 //        avlTree.add(11);
 //        avlTree.add(10);
@@ -32,18 +39,11 @@ public class Main {
         BinaryTrees.println(avlTree);
         //avlTree.remove(11);
         System.out.println("============================================");
-       // BinaryTrees.println(avlTree);
+        avlTree.remove(16);
+         BinaryTrees.println(avlTree);
 
 
     }
-
-
-
-
-
-
-
-
 
 
 }
