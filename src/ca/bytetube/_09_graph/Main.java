@@ -2,10 +2,29 @@ package ca.bytetube._09_graph;
 
 import org.junit.Test;
 
+import java.util.List;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) {
 
     }
+
+    @Test
+    public void testMST() {
+        Graph<Object, Double> unDirectedGraph = unDirectedGraph(Data.MST_02);
+        Set<Graph.EdgeInfo<Object, Double>> mst = unDirectedGraph.mst();
+        System.out.println(mst);
+    }
+
+
+    @Test
+    public void testTOPO() {
+        Graph<Object, Double> directedGraph = directedGraph(Data.TOPO);
+        List<Object> list = directedGraph.topologicalSort(0);
+        System.out.println(list);
+    }
+
 
     @Test
     public void testDFS() {
@@ -56,8 +75,10 @@ public class Main {
 
     }
 
+    static Graph.WeightManager<Double> weightManager = (w1, w2) -> w1.compareTo(w2);
+
     public static Graph<Object, Double> unDirectedGraph(Object[][] data) {
-        Graph<Object, Double> graph = new ListGraph<>();
+        Graph<Object, Double> graph = new ListGraph<>(weightManager);
         for (Object[] edge : data) {
             if (edge.length == 1) {
                 graph.addVertex(edge[0]);
@@ -90,4 +111,6 @@ public class Main {
 
         return graph;
     }
+
+
 }

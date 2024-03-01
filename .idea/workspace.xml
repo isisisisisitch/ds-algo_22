@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
@@ -37,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.24875125" />
@@ -50,6 +51,7 @@
       <recent name="ca.bytetube._03_list" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avltree" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
@@ -67,36 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.testDFS">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._09_graph" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Main.testMST">
     <configuration name="Main.testBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
@@ -129,6 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.testMST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube._09_graph" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
+      <option name="METHOD_NAME" value="testMST" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
@@ -145,13 +134,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.testTOPO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._09_graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.bytetube._09_graph" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
+      <option name="METHOD_NAME" value="testTOPO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Main.testMST" />
+        <item itemvalue="JUnit.Main.testTOPO" />
         <item itemvalue="JUnit.Main.testDFS" />
         <item itemvalue="JUnit.Main.testBFS" />
         <item itemvalue="JUnit.Main.testRemove" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.Main.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,7 @@
       <workItem from="1707859455139" duration="9540000" />
       <workItem from="1708038290568" duration="7393000" />
       <workItem from="1708647568119" duration="5941000" />
-      <workItem from="1709080038785" duration="8528000" />
+      <workItem from="1709080038785" duration="17057000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -242,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708660158008</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added bfs &amp; dfs">
+      <created>1709090680962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709090680962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +283,8 @@
     <MESSAGE value="added avl" />
     <MESSAGE value="added heap" />
     <MESSAGE value="added graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added graph" />
+    <MESSAGE value="added bfs &amp; dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bfs &amp; dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -298,13 +311,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>53</line>
+          <line>72</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>40</line>
+          <line>59</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

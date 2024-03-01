@@ -6,6 +6,15 @@ public class ListGraph<V, E> extends Graph<V, E> {
     private Map<V, Vertex<V, E>> vertices = new HashMap<>();
     private Set<Edge<V, E>> edges = new HashSet<>();
 
+    private Comparator<Edge<V, E>> edgeComparator = (o1, o2) -> weightManager.compare(o1.weight, o2.weight);
+
+    public ListGraph() {
+    }
+
+    public ListGraph(WeightManager<E> weightManager) {
+        super(weightManager);
+    }
+
     private static class Vertex<V, E> {
         V value;
         Set<Edge<V, E>> inEdges = new HashSet<>();
@@ -62,6 +71,11 @@ public class ListGraph<V, E> extends Graph<V, E> {
         public int hashCode() {
             return Objects.hash(weight, from, to);
         }
+
+        public EdgeInfo<V, E> info() {
+            return new EdgeInfo<V, E>(weight, from.value, to.value);
+        }
+
     }
 
 
@@ -250,11 +264,71 @@ public class ListGraph<V, E> extends Graph<V, E> {
 
     }
 
+    /**
+     * 1.需要准备一个map（用来存图的inDegree信息），一个queue（缓冲区），一个list（存排序结果）
+     * 2.将graph中inDegree=0的顶点放入queue，inDegree !=0 放入map中
+     * 3.出队头元素，放入list中，并且更新map中的inDegree信息
+     * 4.从map中找到inDegree=0的顶点，并放入queue中
+     * 5.不断重复3，4的过程，直到queue为空
+     */
     @Override
     List<V> topologicalSort(V begin) {
-        return null;
+        //1. 需要准备一个map（用来存图的inDegree信息），一个queue（缓冲区），一个list（存排序结果）
+        Map<Vertex<V, E>, Integer> map = new HashMap<>();
+        Queue<Vertex<V, E>> queue = new LinkedList<>();
+        List<V> list = new LinkedList<>();
+        //2.将graph中inDegree=0的顶点放入queue，inDegree !=0 放入map中
+        vertices.forEach((V v, Vertex<V, E> vertex) -> {
+            int size = vertex.inEdges.size();
+            if (size == 0) queue.offer(vertex);
+            else map.put(vertex, size);
+        });
+
+        //5.不断重复3，4的过程，直到queue为空
+        while (!queue.isEmpty()) {
+            //3.出队头元素，放入list中，并且更新map中的inDegree信息
+            Vertex<V, E> vertex = queue.poll();
+            list.add(vertex.value);
+            for (Edge<V, E> edge : vertex.outEdges) {
+                int toIn = map.get(edge.to) - 1;
+                //  4.从map中找到inDegree=0的顶点，并放入queue中
+                if (toIn == 0) queue.offer(edge.to);
+                else map.put(edge.to, toIn);
+            }
+        }
+
+        return list;
     }
 
+    @Override
+    Set<EdgeInfo<V, E>> mst() {
+
+        return prim();
+    }
+
+    private Set<EdgeInfo<V, E>> prim() {
+        //A mst边集
+        Set<EdgeInfo<V, E>> edgeInfos = new HashSet<>();
+        //S mst点集
+        Set<Vertex<V, E>> addedVertices = new HashSet<>();
+        Iterator<Vertex<V, E>> iterator = vertices.values().iterator();
+        Vertex<V, E> vertex = iterator.next();//A点
+        addedVertices.add(vertex);
+        MinHeap<Edge<V, E>> minHeap = new MinHeap<>(vertex.outEdges, edgeComparator);
+
+        while (!minHeap.isEmpty() && addedVertices.size() < vertices.size()) {
+            Edge<V, E> edge = minHeap.remove();
+            if (addedVertices.contains(edge.to)) continue;
+            //AB--->A mst边集
+            edgeInfos.add(edge.info());
+            addedVertices.add(edge.to);
+
+            //将B点所有的outEdges放到heap中，继续寻找A mst边集中的最小的crossing edge
+            minHeap.addAll(edge.to.outEdges);
+        }
+
+        return edgeInfos;
+    }
 
 
     private void dfs(Vertex<V, E> beginVertex, Set<Vertex<V, E>> visitedVertices) {
