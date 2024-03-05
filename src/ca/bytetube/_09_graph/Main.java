@@ -3,10 +3,19 @@ package ca.bytetube._09_graph;
 import org.junit.Test;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
+
+    }
+
+    @Test
+    public void testSP() {
+        Graph<Object, Double> directedGraph = directedGraph(Data.SP);
+        Map<Object, Double> map = directedGraph.shortestPath("A");
+        System.out.println(map);
 
     }
 
@@ -75,7 +84,17 @@ public class Main {
 
     }
 
-    static Graph.WeightManager<Double> weightManager = (w1, w2) -> w1.compareTo(w2);
+    static Graph.WeightManager<Double> weightManager = new Graph.WeightManager<Double>() {
+        @Override
+        public int compare(Double w1, Double w2) {
+            return w1.compareTo(w2);
+        }
+
+        @Override
+        public Double add(Double w1, Double w2) {
+            return w1 + w2;
+        }
+    };
 
     public static Graph<Object, Double> unDirectedGraph(Object[][] data) {
         Graph<Object, Double> graph = new ListGraph<>(weightManager);
@@ -97,7 +116,7 @@ public class Main {
 
 
     public static Graph<Object, Double> directedGraph(Object[][] data) {
-        Graph<Object, Double> graph = new ListGraph<>();
+        Graph<Object, Double> graph = new ListGraph<>(weightManager);
         for (Object[] edge : data) {
             if (edge.length == 1) {
                 graph.addVertex(edge[0]);

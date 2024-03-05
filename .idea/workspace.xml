@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
@@ -69,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.testMST">
+  <component name="RunManager" selected="JUnit.Main.testSP">
     <configuration name="Main.testBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
@@ -118,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.testSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ca.bytetube._09_graph" />
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._09_graph.Main" />
-      <option name="METHOD_NAME" value="testRemove" />
+      <option name="METHOD_NAME" value="testSP" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Main.testSP" />
         <item itemvalue="JUnit.Main.testMST" />
         <item itemvalue="JUnit.Main.testTOPO" />
         <item itemvalue="JUnit.Main.testDFS" />
         <item itemvalue="JUnit.Main.testBFS" />
-        <item itemvalue="JUnit.Main.testRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +180,8 @@
       <workItem from="1707859455139" duration="9540000" />
       <workItem from="1708038290568" duration="7393000" />
       <workItem from="1708647568119" duration="5941000" />
-      <workItem from="1709080038785" duration="17057000" />
+      <workItem from="1709080038785" duration="17725000" />
+      <workItem from="1709598305841" duration="7423000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709090680962</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added mst">
+      <created>1709263680135</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709263680135</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +290,8 @@
     <MESSAGE value="added heap" />
     <MESSAGE value="added graph" />
     <MESSAGE value="added bfs &amp; dfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bfs &amp; dfs" />
+    <MESSAGE value="added mst" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,17 +318,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>72</line>
+          <line>81</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>59</line>
+          <line>68</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>15</line>
+          <line>24</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

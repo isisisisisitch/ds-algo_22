@@ -1,6 +1,7 @@
 package ca.bytetube._09_graph;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public abstract class Graph<V, E> {
@@ -39,6 +40,8 @@ public abstract class Graph<V, E> {
     abstract List<V> topologicalSort(V begin);
 
     abstract Set<EdgeInfo<V, E>> mst();
+
+    abstract Map<V, E> shortestPath(V begin);
 
     public static abstract class VertexVisitor<V> {
 
@@ -92,7 +95,8 @@ public abstract class Graph<V, E> {
 
     public interface WeightManager<E> {
         public int compare(E w1, E w2);
-//        public int add(E w1, E w2);
+
+        public E add(E w1, E w2);
 //        public int minus(E w1, E w2);
     }
 
