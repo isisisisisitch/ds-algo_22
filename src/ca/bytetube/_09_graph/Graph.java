@@ -1,5 +1,6 @@
 package ca.bytetube._09_graph;
 
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -41,7 +42,9 @@ public abstract class Graph<V, E> {
 
     abstract Set<EdgeInfo<V, E>> mst();
 
-    abstract Map<V, E> shortestPath(V begin);
+    abstract Map<V, E> shortestPathWithoutPathInfo(V begin);
+
+    abstract Map<V, PathInfo<V, E>> shortestPath(V begin);
 
     public static abstract class VertexVisitor<V> {
 
@@ -93,11 +96,48 @@ public abstract class Graph<V, E> {
         }
     }
 
+    public static class PathInfo<V, E> {
+        protected E weight;
+        protected List<EdgeInfo<V, E>> edgeInfos = new LinkedList<>();
+
+        public PathInfo() {
+        }
+
+        public PathInfo(E weight) {
+            this.weight = weight;
+        }
+
+        public E getWeight() {
+            return weight;
+        }
+
+        public void setWeight(E weight) {
+            this.weight = weight;
+        }
+
+        public List<EdgeInfo<V, E>> getEdgeInfos() {
+            return edgeInfos;
+        }
+
+        public void setEdgeInfos(List<EdgeInfo<V, E>> edgeInfos) {
+            this.edgeInfos = edgeInfos;
+        }
+
+        @Override
+        public String toString() {
+            return "PathInfo{" +
+                    "weight=" + weight +
+                    ", edgeInfos=" + edgeInfos +
+                    '}'+"\n";
+        }
+    }
+
     public interface WeightManager<E> {
         public int compare(E w1, E w2);
 
         public E add(E w1, E w2);
-//        public int minus(E w1, E w2);
+
+        public E zero();
     }
 
 

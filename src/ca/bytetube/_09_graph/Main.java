@@ -13,8 +13,8 @@ public class Main {
 
     @Test
     public void testSP() {
-        Graph<Object, Double> directedGraph = directedGraph(Data.SP);
-        Map<Object, Double> map = directedGraph.shortestPath("A");
+        Graph<Object, Double> directedGraph = directedGraph(Data.BF_SP);
+        Map<Object, Graph.PathInfo<Object, Double>> map = directedGraph.shortestPath("A");
         System.out.println(map);
 
     }
@@ -93,6 +93,11 @@ public class Main {
         @Override
         public Double add(Double w1, Double w2) {
             return w1 + w2;
+        }
+
+        @Override
+        public Double zero() {
+            return 0.0;
         }
     };
 
