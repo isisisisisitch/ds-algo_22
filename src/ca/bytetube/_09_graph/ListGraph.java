@@ -360,6 +360,76 @@ public class ListGraph<V, E> extends Graph<V, E> {
         return bellmanFord(begin);
     }
 
+    @Override
+    public Map<V, Map<V, PathInfo<V, E>>> shortestPath() {
+        Map<V, Map<V, PathInfo<V, E>>> paths = new HashMap<>();
+
+        //paths 初始化 默认图中点与点之间直接的连线是最短路径
+        for (Edge<V, E> edge : edges) {
+            //终点                                   //起点
+            Map<V, PathInfo<V, E>> map = paths.get(edge.from.value);
+            if (map == null) {
+                map = new HashMap<>();
+                paths.put(edge.from.value, map);//(A,map(null))
+            }
+
+            PathInfo<V, E> pathInfo = new PathInfo<>(edge.weight);
+            pathInfo.edgeInfos.add(edge.info());
+            map.put(edge.to.value, pathInfo);
+            //AMap: key:A value:pathInfo(AB,10)
+            //  key:A value:pathInfo(AE,8)
+            // paths.put(edge.from.value,map);
+
+        }
+
+        vertices.forEach((V v2, Vertex<V, E> vertex2) -> {
+
+            vertices.forEach((V v1, Vertex<V, E> vertex1) -> {
+
+                vertices.forEach((V v3, Vertex<V, E> vertex3) -> {
+                    //v1--->v2  //v2--->v3  //v1--->v3
+
+                    //v1--->v2
+                    PathInfo<V, E> path12 = getPathInfo(v1, v2, paths);
+
+                    if (path12 == null) return;
+                    //v2--->v3
+                    PathInfo<V, E> path23 = getPathInfo(v2, v3, paths);
+                    if (path23 == null) return;
+
+                    E newWeight = weightManager.add(path12.weight, path23.weight);
+
+                    //v1--->v3
+                    PathInfo<V, E> path13 = getPathInfo(v1, v3, paths);
+
+                    if (path13 != null && weightManager.compare(newWeight, path13.weight) >= 0) return;
+                    if (path13 == null) {
+                        path13 = new PathInfo<>();
+                        paths.get(v1).put(v3, path13);
+
+                    } else path13.edgeInfos.clear();
+
+                    path13.weight = newWeight;
+
+                    path13.edgeInfos.addAll(path12.edgeInfos);
+
+                    path13.edgeInfos.addAll(path23.edgeInfos);
+
+                });
+            });
+        });
+
+        return paths;
+    }
+
+    private PathInfo<V, E> getPathInfo(V v1, V v2, Map<V, Map<V, PathInfo<V, E>>> paths) {
+        Map<V, PathInfo<V, E>> infoMap = paths.get(v1);
+        if (infoMap == null) {
+            return null;
+        }
+        return infoMap.get(v2);
+    }
+
     private Map<V, PathInfo<V, E>> bellmanFord(V begin) {
         Vertex<V, E> beginVertex = vertices.get(begin);
         if (beginVertex == null) return null;
