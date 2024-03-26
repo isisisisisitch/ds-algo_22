@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/RecursiveToNonRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/TailRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_11_backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/ChangeCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/LexicographicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/MinMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Pirates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_recursion/Fib.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.Hanoi" />
+  <component name="RunManager" selected="Application.MinMoney">
+    <configuration name="ChangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.ChangeCoins" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._11_backtracking.NQueens" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.Knapsack" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._11_backtracking.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.PrintAllSubString" />
+    <configuration name="LexicographicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.LexicographicalSort" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveToNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.RecursiveToNonRecursive" />
+    <configuration name="MinMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.MinMoney" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_recursion.TailRecursion" />
+    <configuration name="lexicographicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.lexicographicalSort" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._10_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.TailRecursion" />
-        <item itemvalue="Application.RecursiveToNonRecursive" />
-        <item itemvalue="Application.PrintAllSubString" />
-        <item itemvalue="Application.Hanoi" />
+        <item itemvalue="Application.MinMoney" />
+        <item itemvalue="Application.LexicographicalSort" />
+        <item itemvalue="Application.lexicographicalSort" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.ChangeCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,8 @@
       <workItem from="1709771131734" duration="8423000" />
       <workItem from="1710458306607" duration="7212000" />
       <workItem from="1710890718364" duration="8002000" />
-      <workItem from="1711063616312" duration="7380000" />
+      <workItem from="1711063616312" duration="7502000" />
+      <workItem from="1711404949059" duration="8725000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -278,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710901647861</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added backtracking">
+      <created>1711078589727</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711078589727</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +323,8 @@
     <MESSAGE value="added bellman-ford" />
     <MESSAGE value="added floyd and recursion" />
     <MESSAGE value="added fib &amp; hanoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fib &amp; hanoi" />
+    <MESSAGE value="added backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
