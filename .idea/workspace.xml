@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/ChangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/LexicographicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/MinMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/Pirates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/BestArrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_greedy/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divideandconquer/GetMaxFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divideandconquer/MaximumSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,26 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinMoney">
-    <configuration name="ChangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.ChangeCoins" />
+  <component name="RunManager" selected="Application.GetMaxFromArray">
+    <configuration name="GetMaxFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.GetMaxFromArray" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.Knapsack" />
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="PATTERN" value="ca.bytetube._13_divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +84,19 @@
     </configuration>
     <configuration name="LexicographicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.LexicographicalSort" />
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.MaxProfit" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMaxFromArray" />
+        <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.MinMoney" />
         <item itemvalue="Application.LexicographicalSort" />
         <item itemvalue="Application.lexicographicalSort" />
-        <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.ChangeCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +172,8 @@
       <workItem from="1710458306607" duration="7212000" />
       <workItem from="1710890718364" duration="8002000" />
       <workItem from="1711063616312" duration="7502000" />
-      <workItem from="1711404949059" duration="8725000" />
+      <workItem from="1711404949059" duration="10103000" />
+      <workItem from="1711496052873" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -288,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711078589727</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added greedy">
+      <created>1711420632075</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711420632084</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +330,8 @@
     <MESSAGE value="added floyd and recursion" />
     <MESSAGE value="added fib &amp; hanoi" />
     <MESSAGE value="added backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="added backtracking" />
+    <MESSAGE value="added greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="added greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,6 +380,11 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_10_recursion/RecursiveToNonRecursive.java</url>
           <line>6</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/bytetube/_12_greedy/MaxProfit.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
