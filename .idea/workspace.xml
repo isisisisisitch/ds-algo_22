@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_03_queue/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_divideandconquer/SmallSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/FindAimInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/MinPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_stack/MinStack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._14_dp" />
       <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._03_list.doubly" />
       <recent name="ca.bytetube._03_list.singly" />
@@ -68,26 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmallSum">
+  <component name="RunManager" selected="Application.MinPathSum">
     <configuration name="GetMaxFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.GetMaxFromArray" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._13_divideandconquer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LexicographicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.LexicographicalSort" />
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.MinPathSum" />
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.SmallSum" />
       <module name="ds_algo_22" />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinPathSum" />
         <item itemvalue="Application.SmallSum" />
         <item itemvalue="Application.GetMaxFromArray" />
         <item itemvalue="Application.MaxProfit" />
         <item itemvalue="Application.MinMoney" />
-        <item itemvalue="Application.LexicographicalSort" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,7 @@
       <workItem from="1711063616312" duration="7502000" />
       <workItem from="1711404949059" duration="10103000" />
       <workItem from="1711496052873" duration="9400000" />
-      <workItem from="1712100625806" duration="5536000" />
+      <workItem from="1712100625806" duration="12907000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -302,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711509292063</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added divide2 and interview questions">
+      <created>1712110485518</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712110485518</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +348,8 @@
     <MESSAGE value="added backtracking" />
     <MESSAGE value="added greedy" />
     <MESSAGE value="added divide" />
-    <option name="LAST_COMMIT_MESSAGE" value="added divide" />
+    <MESSAGE value="added divide2 and interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added divide2 and interview questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
