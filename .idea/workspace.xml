@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/FindAimInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_dp/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_15_sequence/KMP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +39,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_14_dp" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.24875125" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._15_sequence" />
       <recent name="ca.bytetube._14_dp" />
       <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._03_list.doubly" />
       <recent name="ca.bytetube._03_list.singly" />
-      <recent name="ca.bytetube._03_list" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_14_dp" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avltree" />
@@ -69,7 +72,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinPathSum">
+  <component name="RunManager" selected="Application.KMP">
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.BruteForce" />
+      <module name="ds_algo_22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetMaxFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.GetMaxFromArray" />
       <module name="ds_algo_22" />
@@ -83,25 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.MaxProfit" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.KMP" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_greedy.MinMoney" />
-      <module name="ds_algo_22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_greedy.*" />
+          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.MinPathSum" />
         <item itemvalue="Application.SmallSum" />
         <item itemvalue="Application.GetMaxFromArray" />
-        <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.MinMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +178,9 @@
       <workItem from="1711063616312" duration="7502000" />
       <workItem from="1711404949059" duration="10103000" />
       <workItem from="1711496052873" duration="9400000" />
-      <workItem from="1712100625806" duration="12907000" />
+      <workItem from="1712100625806" duration="13603000" />
+      <workItem from="1713467320382" duration="155000" />
+      <workItem from="1713482419208" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -310,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712110485518</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added dp">
+      <created>1712284579581</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712284579581</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +361,8 @@
     <MESSAGE value="added greedy" />
     <MESSAGE value="added divide" />
     <MESSAGE value="added divide2 and interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added divide2 and interview questions" />
+    <MESSAGE value="added dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
