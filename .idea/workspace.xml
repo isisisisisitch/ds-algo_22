@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_Palindrome/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/InsertionSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/utils/Times.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_15_sequence/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds_algo_22/ca/bytetube/_15_sequence/KMP.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,25 +46,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_14_dp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_17_sort" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.24875125" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._17_sort" />
       <recent name="ca.bytetube._15_sequence" />
       <recent name="ca.bytetube._14_dp" />
       <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._03_list.doubly" />
-      <recent name="ca.bytetube._03_list.singly" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_17_sort" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_14_dp" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avltree" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KMP">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.BruteForce" />
       <module name="ds_algo_22" />
@@ -82,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.GetMaxFromArray" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.BubbleSort" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._13_divideandconquer.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_dp.MinPathSum" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.Main" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._14_dp.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._13_divideandconquer.SmallSum" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.SelectionSort" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._13_divideandconquer.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.KMP" />
         <item itemvalue="Application.BruteForce" />
-        <item itemvalue="Application.MinPathSum" />
-        <item itemvalue="Application.SmallSum" />
-        <item itemvalue="Application.GetMaxFromArray" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +188,8 @@
       <workItem from="1712100625806" duration="13603000" />
       <workItem from="1713467320382" duration="155000" />
       <workItem from="1713482419208" duration="6544000" />
-      <workItem from="1713910709490" duration="4436000" />
+      <workItem from="1713910709490" duration="5190000" />
+      <workItem from="1714514704417" duration="8563000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -333,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713492974588</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LongestPalindrome">
+      <created>1713923613540</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713923613540</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +393,8 @@
     <MESSAGE value="added divide2 and interview questions" />
     <MESSAGE value="added dp" />
     <MESSAGE value="kmp" />
-    <option name="LAST_COMMIT_MESSAGE" value="kmp" />
+    <MESSAGE value="LongestPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="LongestPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
