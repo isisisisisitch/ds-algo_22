@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/InsertionSort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/PartSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Main.java" afterDir="false" />
     </list>
@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PartSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.BinarySearch" />
       <module name="ds_algo_22" />
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_sequence.KMP" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.Main" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._15_sequence.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.Main" />
+    <configuration name="PartSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.PartSort" />
       <module name="ds_algo_22" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartSort" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.KMP" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,8 @@
       <workItem from="1713910709490" duration="5190000" />
       <workItem from="1714514704417" duration="9667000" />
       <workItem from="1714678626947" duration="651000" />
-      <workItem from="1714692528024" duration="4911000" />
+      <workItem from="1714692528024" duration="4927000" />
+      <workItem from="1715124561210" duration="6123000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -352,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714529893135</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="sort2">
+      <created>1715037979930</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715037979931</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +403,8 @@
     <MESSAGE value="kmp" />
     <MESSAGE value="LongestPalindrome" />
     <MESSAGE value="sort1" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort1" />
+    <MESSAGE value="sort2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
