@@ -13,7 +13,7 @@ public class Main {
 //        HeapSort<Integer> heapSort = new HeapSort<>();
 //        heapSort.sort(randomArray);
         // Integers.println(randomArray);
-        testSorts(randomArray, new InsertionSort3(),new MergeSort());
+        testSorts(randomArray,new MergeSort(),new QuickSort(),new ShellSort());
 
     }
 

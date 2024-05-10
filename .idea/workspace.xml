@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c7c7e7-7b04-479a-a8d3-44caeabac98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/PartSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_04_sort/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sort/Main.java" afterDir="false" />
     </list>
@@ -70,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartSort">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sort.BinarySearch" />
       <module name="ds_algo_22" />
@@ -138,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PartSort" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PartSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
@@ -183,7 +184,8 @@
       <workItem from="1714514704417" duration="9667000" />
       <workItem from="1714678626947" duration="651000" />
       <workItem from="1714692528024" duration="4927000" />
-      <workItem from="1715124561210" duration="6123000" />
+      <workItem from="1715124561210" duration="6138000" />
+      <workItem from="1715297316435" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="added list interview questions">
       <created>1705029673343</created>
@@ -360,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715037979931</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="sort3">
+      <created>1715210803108</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1715210803108</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +413,8 @@
     <MESSAGE value="LongestPalindrome" />
     <MESSAGE value="sort1" />
     <MESSAGE value="sort2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort2" />
+    <MESSAGE value="sort3" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
