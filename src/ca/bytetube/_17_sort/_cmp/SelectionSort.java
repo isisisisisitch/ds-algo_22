@@ -1,6 +1,6 @@
-package ca.bytetube._17_sort;
+package ca.bytetube._17_sort._cmp;
 
-import ca.bytetube._17_sort.utils.Integers;
+import ca.bytetube._17_sort._cmp.utils.Integers;
 
 public class SelectionSort {
     public static void main(String[] args) {

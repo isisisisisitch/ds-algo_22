@@ -1,7 +1,7 @@
-package ca.bytetube._17_sort;
+package ca.bytetube._17_sort._cmp;
 
-import ca.bytetube._17_sort.utils.Asserts;
-import ca.bytetube._17_sort.utils.Integers;
+import ca.bytetube._17_sort._cmp.utils.Asserts;
+import ca.bytetube._17_sort._cmp.utils.Integers;
 
 import java.util.Arrays;
 

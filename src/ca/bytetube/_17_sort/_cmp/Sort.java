@@ -1,4 +1,4 @@
-package ca.bytetube._17_sort;
+package ca.bytetube._17_sort._cmp;
 
 
 import java.text.DecimalFormat;

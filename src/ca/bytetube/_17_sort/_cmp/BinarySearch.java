@@ -1,4 +1,4 @@
-package ca.bytetube._17_sort;
+package ca.bytetube._17_sort._cmp;
 
 public class BinarySearch {
 

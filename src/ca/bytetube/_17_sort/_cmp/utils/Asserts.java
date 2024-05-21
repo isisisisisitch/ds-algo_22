@@ -1,4 +1,4 @@
-package ca.bytetube._17_sort.utils;
+package ca.bytetube._17_sort._cmp.utils;
 
 public class Asserts {
 	public static void test(boolean value) {
