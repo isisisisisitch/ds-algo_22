@@ -9,6 +9,42 @@ import java.util.LinkedList;
  * @author dal
  */
 public class SlidingWindowMaximum {
+
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        if (k == 1) return nums;
+        int[] maxes = new int[nums.length - k + 1];
+        int maxIndex = 0;
+
+        //1.先求出第一个窗口中的最大值索引
+        for (int i = 1; i < k; i++) {
+            if (nums[i] > nums[maxIndex]) maxIndex = i;
+        }
+
+        for (int li = 0; li < maxes.length; li++) {
+            //li驱动ri的移动
+            int ri = li + k - 1;
+            if (maxIndex < li) {//最大值索引过期
+                maxIndex = li;
+                for (int i = li + 1; i <= ri; i++) {
+                    if (nums[i] > nums[maxIndex]) maxIndex = i;
+                }
+
+            }
+            //最大值索引未过期，并且新加入的值比原来窗口内的最大值还要大
+            else if (nums[ri] >= nums[maxIndex]) {
+                maxIndex = ri;
+            }
+            //最大值索引未过期，并且新加入的值比原来窗口内的最大值还要小
+
+                maxes[li] = nums[maxIndex];
+
+
+        }
+
+
+        return maxes;
+    }
+
     /**
      * 1.If nums[i] >= nums[tail],removing tail until nums[tail] > nums[i]
      * 2.Add index i into tail of dequeue
@@ -16,7 +52,7 @@ public class SlidingWindowMaximum {
      * * Remove expired head of dequeue (value of head < w)
      * * Update window max value at W position to nums[head]
      */
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    public int[] maxSlidingWindow1(int[] nums, int k) {
         if (k == 1) return nums;
 
         int[] maxes = new int[nums.length - k + 1];
